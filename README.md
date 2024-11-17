@@ -31,6 +31,8 @@ http://www.pd-tutorial.com/
 Floss Manual:
 https://archive.flossmanuals.net/pure-data/
 
+https://puredata.info/docs/StartHere
+
 
 Videochannels / Playlists etc:
 
