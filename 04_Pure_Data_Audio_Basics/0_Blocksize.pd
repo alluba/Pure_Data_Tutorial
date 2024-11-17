@@ -1,0 +1,17 @@
+#N canvas 53 372 1202 453 12;
+#X obj 131 66 osc~ 440;
+#X obj 131 297 print~;
+#X obj 144 201 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
+#X text 729 55 Computers tend to process information in batches or chunks. In Pd \, these are known as Blocks. One block represents the number of audio samples which Pd will compute before giving output. The default block size in Pd is 64 \, which means that every 64 samples \, Pd makes every calculation needed on the sound and when all these calculations are finished \, then the patch will output sound. Because of this \, a Pd patch cannot contain any DSP loops \, which are situations where the output of a patch is sent directly back to the input. In such a situation \, Pd would be waiting for the output of the patch to be calculated before it could give output! In other words \, an impossible situation. Pd can detect DSP loops \, and will not compute audio when they are present.;
+#X text 183 200 Print Block;
+#X obj 208 293 tabwrite~ testarray;
+#N canvas 0 22 450 278 (subpatch) 0;
+#X array testarray 64 float 3;
+#A 0 0.378155 0.435408 0.490952 0.544569 0.596044 0.645173 0.691767 0.735644 0.776633 0.814571 0.849311 0.880716 0.908663 0.93304 0.953739 0.970693 0.983835 0.993114 0.998493 0.99995 0.997482 0.991097 0.980819 0.966677 0.948736 0.92707 0.901763 0.872916 0.84064 0.805063 0.766325 0.724577 0.679976 0.632701 0.582942 0.530894 0.476761 0.420756 0.363099 0.304015 0.243737 0.1825 0.120545 0.0581164 -0.00453946 -0.0671772 -0.129551 -0.191417 -0.252531 -0.312654 -0.371548 -0.428979 -0.484725 -0.538566 -0.590293 -0.639701 -0.686597 -0.730798 -0.772129 -0.810428 -0.845532 -0.877315 -0.905653 -0.930434;
+#X coords 0 1 64 -1 200 140 1;
+#X restore 439 93 graph;
+#X obj 761 296 block~ 64 1 1;
+#X connect 0 0 1 0;
+#X connect 0 0 5 0;
+#X connect 2 0 1 0;
+#X connect 2 0 5 0;

@@ -1,0 +1,4 @@
+#N canvas 1265 284 450 300 12;
+#X obj 78 71 r something;
+#X floatatom 78 112 5 0 0 0 - - - 0;
+#X connect 0 0 1 0;

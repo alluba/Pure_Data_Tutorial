@@ -1,0 +1,6 @@
+#N canvas 407 236 657 443 12;
+#X text 43 40 Hausaufgabe:;
+#X text 44 73 Schreibt jeweils ein kleines Programm in dem zwei Zahlen addiert \, subtrahiert \, multipliziert und dividiert werden (+ \, - \, * \, /). Beide Zahlen sollen mit Nummer-Boxen gesteuert werden können. Achtet auf die Evaluation Order. Schaut euch dazu nochmal die Patches aus der Stunde an (Hot and Cold inlets.);
+#X obj 47 263 random;
+#X text 40 198 Bonus: Lest euch die Beschreibung des [random] Objektes durch und baut dieses in euer Patch ein ( zwei Zufällige Zahlen als Input).;
+#X text 125 263 Achtung: Pure Data zählt von 0 [random 5] z.B. gibt Zahlen zwischen 0 und 4 heraus.;

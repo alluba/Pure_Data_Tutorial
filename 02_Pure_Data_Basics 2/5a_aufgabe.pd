@@ -1,0 +1,10 @@
+#N canvas 428 226 566 306 12;
+#X floatatom 54 190 5 0 0 0 - - - 0;
+#X text 44 97 Zweitens sollen zusätzlich zufallszahlen zwischen 60 und 72 erzeugt werden \, diese sollen mit dem Objekt [mtof] die Frequenz eines [osc~] steuern.;
+#X obj 54 217 mtof;
+#X floatatom 54 248 5 0 0 0 - - - 0;
+#X text 102 189 MIDI;
+#X text 103 251 Hertz;
+#X text 40 28 Programmiert ein [metro] \, dass bangs an ein [random] schickt. Dort sollen Zufällige Zahlen zwischen 500-2500 erzeugt werden. Diese sollen wiederum zurück ins [metro] und den Abstang der Bangs (das Tempo) steuern.;
+#X connect 0 0 2 0;
+#X connect 2 0 3 0;

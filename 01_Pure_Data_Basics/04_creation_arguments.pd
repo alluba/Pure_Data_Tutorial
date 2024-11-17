@@ -1,0 +1,18 @@
+#N canvas 2 26 1600 806 12;
+#X obj 106 109 +;
+#X text 253 97 Objekte haben einen Namen (z.B. [+]). Dieser definiert das Objekt \, dessen Funktionsweise etc.;
+#X text 253 168 Neben dem Objektnamen können sog. Creation-Arguments gesetzt werden. Hier wird bspw. dur das Creation-Argument "5" automatisch 5 zum Input addiert;
+#X floatatom 105 153 5 0 0 0 - - - 0;
+#X floatatom 105 209 5 0 0 0 - - - 0;
+#X floatatom 105 276 5 0 0 0 - - - 0;
+#X floatatom 105 404 5 0 0 0 - - - 0;
+#X text 242 269 Creation-Arguments können überschrieben werden. Wenn in die rechte Nummer-Box ein anderer Wert gesetzt wird \, wird nicht mehr 5 addiert \, sondern die Zahl aus der Box.;
+#X floatatom 181 307 5 0 0 0 - - - 0;
+#X obj 274 373 + 500;
+#X obj 105 375 + 5, f 10;
+#X obj 105 180 + 5;
+#X connect 3 0 11 0;
+#X connect 5 0 10 0;
+#X connect 8 0 10 1;
+#X connect 10 0 6 0;
+#X connect 11 0 4 0;
