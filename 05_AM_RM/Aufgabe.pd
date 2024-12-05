@@ -1,2 +1,10 @@
-#N canvas 121 159 1142 666 12;
-#X text 54 27 Aufgabe:;
+#N canvas 60 205 538 666 12;
+#X text 57 544 Selbes Beispiel \, aber Slider auf 0.5:;
+#X text 152 567 Endresult: Werte zwischen 75 und 125;
+#X text 55 601 Implementiert das in eines der obigen beispiele.;
+#X text 54 27 Aufgabe: 1 Erstellt eine Ringmodulation (mit 2 osc~). Die Frequenzen für Carrier und Modulator sollen mit Slidern steuerbar sein (Werte zw. 0.1 und 10000). An die Slider sollen mit sends Werte geschickt werden können (in den Einstellungen unter "Empfangssymbol" setzen \, Namen geben \, muss der gleiche Name sein wie das dazugehörige send-Objekt). Findet 4 verschiedene Einstellungen für die Frequenzen von Carrier und Modulator und speichert diese in message-boxen. Die Message-Boxen sollen dann diese Werte an die Slider schicken können. EXTRA: Probiert \, eine komplexe RM zu erzeugen \, indem das Signal \, indem ihr ein Carriersignal statt mit einem einfachen osc~mit einem bereits rinmodulierten signal moduliert.;
+#X text 55 282 2 Schreibt ein Patch \, in dem ein Carrier mit einem [phasor~] amplitudenmoduliert wird (logaritmischer Slider für die Steuerung der Frequenz des Modulators \, in den Einstellungen auf "log" statt "lin" setzen ). Als Carrier könnt ihr verschiedene Signale ausprobieren (Mikrofon-Input \, osc~ \, noise~).;
+#X text 52 479 Ein Beispiel: gesetzter Wert: 100;
+#X text 54 380 EXTRA: Überlegt \, wie Random-Werte um einen gesetzten Wert herum erzeugen könntet (sowohl unter als auch über dem gesetzten Wert - der gesetzte Wert soll dabei in der Mitte liegen) Der Umfang der Random-Werte sollte mit einem Slider skalierbar sein (maximal 50% des gesetzten Wertes im positiven und negativen Bereich).;
+#X text 149 497 -> Randomwerte zwischen -50 und 50;
+#X text 149 521 -> Endresult: Werte zwischen 50 und 150;
