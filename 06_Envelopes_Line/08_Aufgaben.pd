@@ -1,4 +1,4 @@
 #N canvas 121 159 1031 607 12;
 #X text 49 43 Aufgaben:;
 #X text 49 84 1 Glissando: Zufallswerte für Frequenz erzeugen \, zwischen denen glissandiert (interpoliert) werden soll.;
-#X text 48 130 2 AR: Einfache Envelope für Lautstärke.;
+#X text 48 130 2 AR: Envelope für Lautstärke (evtl curved);
