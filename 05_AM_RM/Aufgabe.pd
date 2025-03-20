@@ -1,4 +1,4 @@
-#N canvas 60 205 538 666 12;
+#N canvas 0 40 913 875 12;
 #X text 57 544 Selbes Beispiel \, aber Slider auf 0.5:;
 #X text 152 567 Endresult: Werte zwischen 75 und 125;
 #X text 55 601 Implementiert das in eines der obigen beispiele.;
@@ -8,3 +8,5 @@
 #X text 54 380 EXTRA: Überlegt \, wie Random-Werte um einen gesetzten Wert herum erzeugen könntet (sowohl unter als auch über dem gesetzten Wert - der gesetzte Wert soll dabei in der Mitte liegen) Der Umfang der Random-Werte sollte mit einem Slider skalierbar sein (maximal 50% des gesetzten Wertes im positiven und negativen Bereich).;
 #X text 149 497 -> Randomwerte zwischen -50 und 50;
 #X text 149 521 -> Endresult: Werte zwischen 50 und 150;
+#X obj 107 228 send;
+#X text 147 229 <---- see helpfile;
