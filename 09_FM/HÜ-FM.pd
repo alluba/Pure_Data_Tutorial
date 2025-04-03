@@ -1,0 +1,3 @@
+#N canvas 414 192 765 509 12;
+#X text 19 60 Finde verschiedene FM Klänge und schreibe die Parameter in eine message box.;
+#X text 29 107 Probiere komplexere Verläufe mit Envelopes fpr Frequenz und index zu erzeugen;
