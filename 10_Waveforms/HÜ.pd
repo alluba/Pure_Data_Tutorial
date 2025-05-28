@@ -1,0 +1,5 @@
+#N canvas 63 101 450 300 12;
+#X text 46 21 Aufgabe: Einen Synth bauen mit 2 Oscillatoren pro Stimme.;
+#X text 47 41 (Detune / Vibrato etc).;
+#X text 48 64 Sequencer oder Keyboard;
+#X text 48 86 Envelope;
