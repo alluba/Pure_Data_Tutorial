@@ -1,4 +1,4 @@
-#N canvas 28 49 1182 809 12;
+#N canvas 116 58 1182 809 12;
 #X obj 94 251 osci 1;
 #X obj 236 250 osci 2;
 #X obj 357 250 osci 3;
@@ -70,7 +70,7 @@
 #X connect 4 1 1 0;
 #X connect 5 0 7 0;
 #X restore 358 130 pd rand3;
-#N canvas 1126 163 450 300 rand4 1;
+#N canvas 1062 163 450 300 rand4 1;
 #X obj 57 62 inlet;
 #X obj 156 129 random 100;
 #X obj 64 157 + 100;
@@ -158,7 +158,6 @@
 #X obj 440 469 output~;
 #X obj 477 4 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
 #X text 760 543 aufgabe: patch so umschreiben \, dass die random-boundaries der frequenzen (high - low) angegeben werden können.;
-#X text 771 656 random-evnvelopes;
 #X text 764 498 -> Abstractions können mit creation-Arguments einzeln angesteuert werden;
 #X connect 0 0 8 0;
 #X connect 1 0 8 0;

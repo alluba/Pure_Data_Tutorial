@@ -1,0 +1,3 @@
+#N canvas 92 130 1065 652 12;
+#X text 54 39 Hausaufgabe:;
+#X text 60 110 Programmiert eine sich verändernde Filterbank mit mid. 3 Filtern. Schickt verschiedene Samples durch die Filterbank. Die Filter sollen zwischen unterschiedlichen zufälligen Frequenzen langsam wechseln. Einstehen soll eiine sich stetig im Spektrum verändernde Klangfläche.;

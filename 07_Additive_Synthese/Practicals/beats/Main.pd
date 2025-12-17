@@ -1,4 +1,4 @@
-#N canvas 1014 28 1469 939 12;
+#N canvas 43 38 756 589 12;
 #X obj 317 339 catch~ sig;
 #X obj 317 405 output~;
 #X obj 103 287 _beat 1;
@@ -21,8 +21,6 @@
 #X obj 121 27 tgl 19 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
 #X obj 115 55 metro 500;
 #X obj 116 200 sel 0 1 2 3 4 5 6;
-#X obj 682 271 s 1/16;
-#X obj 686 209 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
 #X connect 0 0 1 0;
 #X connect 15 0 16 0;
 #X connect 16 0 17 0;
@@ -37,4 +35,3 @@
 #X connect 21 3 11 0;
 #X connect 21 4 12 0;
 #X connect 21 5 13 0;
-#X connect 23 0 22 0;

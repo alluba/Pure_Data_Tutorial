@@ -1,4 +1,4 @@
-#N canvas 0 25 1600 806 12;
+#N canvas 0 38 735 489 12;
 #X obj 106 109 +;
 #X text 253 97 Objekte haben einen Namen (z.B. [+]). Dieser definiert das Objekt \, dessen Funktionsweise etc.;
 #X text 253 168 Neben dem Objektnamen können sog. Creation-Arguments gesetzt werden. Hier wird bspw. dur das Creation-Argument "5" automatisch 5 zum Input addiert;
