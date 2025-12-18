@@ -1,10 +1,10 @@
-#N canvas 136 384 1237 682 12;
+#N canvas 136 230 1237 682 12;
 #X text 51 212 -> Scrub;
 #X text 50 300 -> transpose;
 #X text 47 57 -> Play with readsf;
 #X text 47 172 -> tabplay;
 #X text 41 108 -> load / save / record;
-#N canvas 238 114 1682 775 array 0;
+#N canvas 0 114 1512 775 array 0;
 #X obj 354 68 openpanel;
 #X msg 355 96 read -resize \$1 sample_01;
 #X obj 355 203 soundfiler;
@@ -38,7 +38,7 @@
 #X connect 6 0 11 0;
 #X connect 11 0 2 0;
 #X restore 275 102 pd array;
-#N canvas 723 166 1010 723 readsf 0;
+#N canvas 502 166 1010 723 readsf 0;
 #X obj 120 99 openpanel;
 #X obj 128 226 readsf~;
 #X msg 120 129 open \$1;
@@ -127,7 +127,7 @@
 #X connect 13 0 12 1;
 #X connect 14 0 1 0;
 #X restore 277 253 pd tabread4;
-#N canvas 0 38 1512 875 transpose 0;
+#N canvas 0 38 1512 874 transpose 0;
 #X obj 187 505 r samplen;
 #X obj 129 585 output~;
 #X obj 119 48 r samplen;
@@ -403,3 +403,4 @@
 #X connect 19 2 15 0;
 #X connect 22 0 9 0;
 #X restore 276 338 pd record;
+#X text 389 103 -> leave this patch open!;
