@@ -1,4 +1,4 @@
-#N canvas 186 39 478 599 12;
+#N canvas 186 39 1226 873 12;
 #X text 21 19 MESSAGE UND SIGNAL;
 #X text 20 59 Pure Data unterschiedet zwischen Message-Daten Und Signal-Daten (Audio).;
 #X text 20 184 Message-Daten werden nicht kontinuierlich geschickt.;
