@@ -1,6 +1,6 @@
-#N canvas 87 185 1340 785 12;
-#X obj 98 88 expr~ $v1 * 2 - 1;
-#X obj 98 56 phasor~ 100;
+#N canvas 87 127 1340 785 12;
+#X obj 98 68 expr~ $v1 * 2 - 1;
+#X obj 98 36 phasor~ 100;
 #X obj 96 601 dac~;
 #X floatatom 98 13 5 0 0 0 - - - 0;
 #X floatatom 128 272 5 0 0 0 - - - 0;
@@ -42,10 +42,8 @@
 #X obj 122 21 key;
 #X floatatom 122 45 5 0 0 0 - - - 0;
 #X obj 119 89 sel 117 111 97 246 252 228 101 105;
-#X obj 219 52 print;
 #X connect 16 0 17 0;
 #X connect 17 0 18 0;
-#X connect 17 0 19 0;
 #X connect 18 0 0 0;
 #X connect 18 1 1 0;
 #X connect 18 2 2 0;
@@ -76,8 +74,10 @@
 #X obj 595 351 *~;
 #X obj 539 237 noise~;
 #X obj 539 261 lop~ 500;
-#X connect 0 0 6 0;
-#X connect 0 0 9 0;
+#X obj 77 173 bauer/xfade~;
+#X obj 120 106 noise~;
+#X obj 120 130 *~ 0.5;
+#X connect 0 0 40 0;
 #X connect 1 0 0 0;
 #X connect 3 0 1 0;
 #X connect 4 0 6 1;
@@ -109,3 +109,6 @@
 #X connect 36 0 29 0;
 #X connect 38 0 39 0;
 #X connect 39 0 37 0;
+#X connect 40 0 6 0;
+#X connect 41 0 42 0;
+#X connect 42 0 40 1;
