@@ -1,7 +1,7 @@
-#N canvas 132 84 1006 417 12;
+#N canvas 132 84 593 384 12;
 #X obj 62 279 metro 500;
-#X text 548 36 [metro] schickt regelmäßig Bangs in einem vorher definierten Zeitlichen Abstand (wie ein Metronom).;
-#X text 556 156 Die Zeit wird in Pure Data in Millisekunden angegeben. 1000 ms = 1 sek.;
+#X text 57 40 [metro] schickt regelmäßig Bangs in einem vorher definierten Zeitlichen Abstand (wie ein Metronom).;
+#X text 150 267 Die Zeit wird in Pure Data in Millisekunden angegeben. 1000 ms = 1 sek.;
 #X obj 63 167 tgl 19 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
 #X obj 62 312 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
 #X text 52 18 [metro];
@@ -13,7 +13,7 @@
 #X text 59 88 angeschaltet \, mit 0 oder [stop( ausgeschaltet.;
 #X text 61 105 Am einfachsten ist ein [toggle] (strg + shift + t);
 #X text 142 196 Die Geschwindigkeit kann über das rechte Inlet gesetzt werden.;
-#X floatatom 122 237 5 0 0 0 - - - 0;
+#X floatatom 116 229 5 0 0 0 - - - 0;
 #X connect 0 0 4 0;
 #X connect 3 0 0 0;
 #X connect 8 0 0 0;

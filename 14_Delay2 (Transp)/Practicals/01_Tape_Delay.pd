@@ -1,4 +1,4 @@
-#N canvas 0 38 1379 866 12;
+#N canvas 737 38 1379 866 12;
 #X obj 317 226 delwrite~ \$0-delay 5000;
 #X obj 115 602 delread4~ \$0-delay 500;
 #X obj 115 574 line~;
@@ -69,7 +69,7 @@
 #X obj 640 471 +~ 0;
 #X obj 639 346 expr~ $v1 * $v2;
 #X obj 754 573 tgl 19 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
-#N canvas 198 94 164 335 cubic 0;
+#N canvas 198 94 164 335 cubic 1;
 #X obj 26 36 noise~;
 #X obj 26 194 *~ 0.5;
 #X obj 27 245 cos~;

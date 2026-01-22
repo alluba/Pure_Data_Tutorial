@@ -1,4 +1,4 @@
-#N canvas 43 59 1512 821 12;
+#N canvas 80 38 1512 821 12;
 #X obj 91 199 send something;
 #X obj 441 202 send anotherthing;
 #X obj 422 293 receive anotherthing;
@@ -29,13 +29,12 @@
 #X obj 923 292 vsl 19 162 0 127 0 0 slider2 empty empty 0 -9 0 12 #fcfcfc #000000 #000000 0 1;
 #X floatatom 1077 375 5 0 0 0 - - - 0;
 #X floatatom 924 238 5 0 0 0 - - numberbox2 0;
-#X obj 754 491 value y;
+#X obj 757 514 value y;
 #X obj 680 508 send y;
 #X floatatom 680 480 5 0 0 0 - - - 0;
-#X obj 754 460 bng 19 250 50 0 empty empty empty 17 7 0 10 #dfdfdf #000000 #000000;
-#X floatatom 754 520 5 0 0 0 - - - 0;
+#X obj 757 483 bng 19 250 50 0 empty empty empty 17 7 0 10 #dfdfdf #000000 #000000;
+#X floatatom 757 543 5 0 0 0 - - - 0;
 #X obj 831 518 send array;
-#X msg 831 472 0 -1 0 1 0 -1 0 1, f 9;
 #N canvas 0 22 450 278 (subpatch) 0;
 #X array array 7 float 2;
 #X coords 0 1.1 7 -1.1 100 50 1 0 0;
@@ -50,6 +49,9 @@
 #X text 271 508 semicolon!;
 #X msg 616 616 \; hello -234;
 #X obj 1180 289 vsl 19 162 0 127 0 0 slider slider2 empty 0 -9 0 12 #fcfcfc #000000 #000000 0 1;
+#X obj 211 199 s;
+#X msg 112 606 \; something symbol hello \; anotherthing 1234;
+#X msg 831 472 0 -1 0 1 0 -0.5 0 1, f 9;
 #X connect 2 0 16 0;
 #X connect 2 0 14 0;
 #X connect 2 0 15 0;
@@ -64,11 +66,11 @@
 #X connect 11 0 1 0;
 #X connect 12 0 1 0;
 #X connect 13 0 0 0;
-#X connect 19 0 44 0;
+#X connect 19 0 43 0;
 #X connect 20 0 26 0;
 #X connect 24 0 23 0;
 #X connect 25 0 28 0;
 #X connect 30 0 34 0;
 #X connect 32 0 31 0;
 #X connect 33 0 30 0;
-#X connect 36 0 35 0;
+#X connect 49 0 35 0;
