@@ -163,7 +163,6 @@
 #X connect 32 0 35 4;
 #X connect 33 0 35 4;
 #X connect 34 0 35 4;
-#X connect 35 0 0 1;
 #X connect 36 0 37 0;
 #X connect 37 0 39 0;
 #X connect 38 0 35 1;
