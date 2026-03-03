@@ -1,0 +1,2 @@
+#N canvas 299 135 692 541 12;
+#X obj 132 86 patch_sketch3;
