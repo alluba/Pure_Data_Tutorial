@@ -1,7 +1,7 @@
-#N canvas 354 25 1129 755 12;
+#N canvas 354 38 1129 755 12;
 #X obj 70 264 osc~;
 #X obj 210 233 osc~;
-#X obj 90 193 print;
+#X obj 335 486 print;
 #X obj 209 168 line~;
 #N canvas 294 305 741 526 fade 0;
 #X obj 31 132 *~;
@@ -46,9 +46,9 @@
 #X obj 406 238 vsl 19 162 0 1 0 0 empty empty empty 0 -9 0 12 #fcfcfc #000000 #000000 0 1;
 #X floatatom 406 414 5 0 0 0 - - - 0;
 #X text 564 441 \$1 is slider value;
-#X msg 70 92 50 \, 2000 500;
+#X msg 77 94 50 \, 2000 500;
 #X msg 208 92 50 \, 2000 500;
-#X obj 70 155 line 100 20;
+#X obj 70 165 line 100 20;
 #X connect 0 0 4 0;
 #X connect 1 0 4 1;
 #X connect 3 0 1 0;
@@ -73,7 +73,7 @@
 #X connect 23 0 21 1;
 #X connect 24 0 25 0;
 #X connect 25 0 23 0;
+#X connect 25 0 2 0;
 #X connect 27 0 29 0;
 #X connect 28 0 3 0;
 #X connect 29 0 0 0;
-#X connect 29 0 2 0;
