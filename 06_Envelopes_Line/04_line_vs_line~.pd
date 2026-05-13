@@ -1,4 +1,4 @@
-#N canvas 354 38 1129 755 12;
+#N canvas 44 38 1257 869 12;
 #X obj 70 264 osc~;
 #X obj 210 233 osc~;
 #X obj 335 486 print;
@@ -33,7 +33,7 @@
 #X obj 179 553 line~;
 #X text 313 142 Line sends (discrete) Messages. line~ sends signals at audio rate.;
 #X text 316 175 line~ is recommended if we need higher resolution \, e.g. volume or frequency control.;
-#X text 74 66 line;
+#X text 64 106 line;
 #X text 206 63 line~;
 #X obj 509 471 line~;
 #X msg 509 441 \$1 10;
@@ -46,9 +46,11 @@
 #X obj 406 238 vsl 19 162 0 1 0 0 empty empty empty 0 -9 0 12 #fcfcfc #000000 #000000 0 1;
 #X floatatom 406 414 5 0 0 0 - - - 0;
 #X text 564 441 \$1 is slider value;
-#X msg 77 94 50 \, 2000 500;
+#X msg 69 131 50 \, 2000 500;
 #X msg 208 92 50 \, 2000 500;
 #X obj 70 165 line 100 20;
+#X obj 406 460 line;
+#X msg 405 436 \$1 50;
 #X connect 0 0 4 0;
 #X connect 1 0 4 1;
 #X connect 3 0 1 0;
@@ -72,8 +74,10 @@
 #X connect 23 0 21 0;
 #X connect 23 0 21 1;
 #X connect 24 0 25 0;
-#X connect 25 0 23 0;
 #X connect 25 0 2 0;
+#X connect 25 0 31 0;
 #X connect 27 0 29 0;
 #X connect 28 0 3 0;
 #X connect 29 0 0 0;
+#X connect 30 0 23 0;
+#X connect 31 0 30 0;

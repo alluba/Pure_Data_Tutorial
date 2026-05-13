@@ -1,4 +1,4 @@
-#N canvas 64 38 1113 805 12;
+#N canvas 666 161 1113 805 12;
 #X text 199 339 creation arguments: time (ms) / grain;
 #X msg 74 136 stop;
 #X text 110 139 "stop" message to stop output;
